@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivan/Desktop/Лабораторные работы/Бартасевич/Лабораторная работа №9/Lab 2/main.cpp
+iostream
+-
+cmath
+-
+algorithm
+-
+

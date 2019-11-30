@@ -1,0 +1,3 @@
+/home/ivan/Desktop/Лабораторные работы/Бартасевич/Лабораторная работа №9/task 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivan/Desktop/Лабораторные работы/Бартасевич/Лабораторная работа №9/task 1/cmake-build-debug/CMakeFiles/task_1.dir
+/home/ivan/Desktop/Лабораторные работы/Бартасевич/Лабораторная работа №9/task 1/cmake-build-debug/CMakeFiles/edit_cache.dir

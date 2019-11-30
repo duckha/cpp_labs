@@ -1,0 +1,21 @@
+/home/ivan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №1/Lab 1.1/src"
+CMake Error: Could not find cmake module file: CMakeDetermine1.1Compiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_1.1_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_1.1_COMPILER
+CMake Error: Could not find cmake module file: /home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №1/Lab 1.1/src/cmake-build-debug/CMakeFiles/3.14.5/CMake1.1Compiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_1.1_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_1.1_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake1.1Information.cmake
+CMake Error: CMAKE_1.1_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №1/Lab 1.1/src/cmake-build-debug/CMakeFiles/CMakeOutput.log".

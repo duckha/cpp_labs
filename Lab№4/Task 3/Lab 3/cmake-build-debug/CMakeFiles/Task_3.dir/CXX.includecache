@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivan/Desktop/Лабораторные работы/Бартасевич/Лабораторная работа №4/Task 3/Lab 3/main.cpp
+iostream
+-
+math.h
+-
+
