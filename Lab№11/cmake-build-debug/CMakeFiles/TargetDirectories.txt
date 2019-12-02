@@ -1,0 +1,3 @@
+/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №11/cmake-build-debug/CMakeFiles/__10.dir
+/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №11/cmake-build-debug/CMakeFiles/edit_cache.dir
