@@ -8,28 +8,42 @@ private:
     int power;
     list<int> set;
 public:
-  SetInteger(int power)
-  {
+    SetInteger(int power)
+    {
       this->power = power;
       for (int i = 0; i < power; ++i) {
           set.resize(i, rand() % 100);
       }
-  }
+    }
 
-  int getCurrentPower(){
+    int getCurrentPower(){
       return set.size();
-  }
-  void addElement(int x){
+    }
+    void addElement(int x){
         set.push_back(x);
-  }
-  void printElemens(){
+    }
+    void printElemens(){
       for (int n : set) {
           cout << n << endl;
       }
-  }
-  void deleteElement(int x){
+    }
+    void deleteElement(int x){
+      set.remove(x);
+    }
 
-  }
+    boolean isPresent(int x){
+      for (int n : set) {
+          if (n == x){
+            return true;
+          }
+      }
+      return false;
+    }
+/*  LAST METHOD
+    void comparison(int x){
+        if ()
+    }
+*/
 
 };
 int main(){
