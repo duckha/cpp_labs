@@ -22,7 +22,7 @@ public:
     void addElement(int x){
         set.push_back(x);
     }
-    void printElemens(){
+    void printElements(){
       for (int n : set) {
           cout << n << endl;
       }
@@ -31,7 +31,7 @@ public:
       set.remove(x);
     }
 
-    boolean isPresent(int x){
+    bool isPresent(int x){
       for (int n : set) {
           if (n == x){
             return true;
@@ -39,18 +39,66 @@ public:
       }
       return false;
     }
-/*  LAST METHOD
+
     void comparison(int x){
-        if ()
+        for(int numOfSet : set){
+            if(numOfSet > x) cout<<numOfSet<<" > "<<x<<endl;
+            if(numOfSet < x) cout<<numOfSet<<" < "<<x<<endl;
+            if(numOfSet == x) cout<<numOfSet<<" = "<<x<<endl;
+        }
     }
-*/
+
 
 };
 int main(){
-    int count, power;
+    int power, choose, element;
+    bool forWhile = true;
     cout << "Введите мощность вашего множества";
     cin >> power;
     SetInteger set = SetInteger(power);
-
+    while(forWhile){
+        cout << endl
+        << "1. Get current power of set." << endl
+        << "2. Add element." << endl
+        << "3. Print elements." << endl
+        << "4. Delete element." << endl
+        << "5. Is present?" << endl
+        << "6. Comparing." << endl
+        << "For exit - write other number." << endl;
+        cin >> choose;
+        switch (choose){
+            case 1:
+                cout << set.getCurrentPower() + 1 << endl;
+                break;
+            case 2:
+                cout << "Enter the element for add: ";
+                cin >> element;
+                set.addElement(element);
+                cout << element << " has been added."  << endl;
+                break;
+            case 3:
+                set.printElements();
+                break;
+            case 4:
+                cout << "Enter the element for remove: ";
+                cin >> element;
+                set.deleteElement(element);
+                cout << element << " has been removed."  << endl;
+                break;
+            case 5:
+                cout << "Enter the element for remove: ";
+                cin >> element;
+                cout << set.isPresent(element) << endl;
+                break;
+            case 6:
+                cout << "Enter the element: ";
+                cin >> element;
+                set.comparison(element);
+                break;
+            default:
+                forWhile = false;
+                break;
+        }
+    }
     return 0;
 }

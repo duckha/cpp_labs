@@ -1,4 +1,4 @@
-# Install script for directory: /home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №12/Lab_2
+# Install script for directory: /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ivan/Рабочий стол/Лабораторные работы/Бартасевич/Лабораторная работа №12/Lab_2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
