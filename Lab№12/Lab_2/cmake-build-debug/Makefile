@@ -48,10 +48,10 @@ RM = /home/ivan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2
+CMAKE_SOURCE_DIR = "/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles" "/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

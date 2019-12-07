@@ -7,7 +7,6 @@ class Money {
     float value, currency, valueInDollars;
     string symbol;
 public:
-
     void setParametrs(float value, float currency, string symbol){
         this->value = value;
         this->currency = currency;

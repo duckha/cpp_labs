@@ -1,3 +1,3 @@
-/mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/Lab_2.dir
-/mnt/0b2a5e4c-da25-4f2f-86f7-3e3c9d7b750c/repositories/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/Lab_2.dir
+/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/cmake-build-debug/CMakeFiles/edit_cache.dir

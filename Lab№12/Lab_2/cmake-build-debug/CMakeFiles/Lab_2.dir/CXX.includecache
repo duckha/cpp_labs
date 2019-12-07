@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_1/main.cpp
+/home/ivan/Рабочий стол/Лабораторные работы/repos/cpp_labs/Lab№12/Lab_2/main.cpp
 iostream
 -
-cmath
+list
 -
-utility
+vector
+-
+algorithm
 -
 
